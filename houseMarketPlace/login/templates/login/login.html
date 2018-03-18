@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+</head>
+<style>
+  body{
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+  }
+
+  form{
+    border: 1px solid #ccc;
+    min-height: 250px;
+    min-width: 300px;
+    padding: 20px;
+  }
+
+  .form-group{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  input{
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none !important;
+    border-bottom: 1px solid #ccc;
+  }
+
+  h3{
+    margin: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    padding-left: 20px;
+    background: #282828;
+    color: #f2f2f2;
+    cursor: pointer;
+    padding: 28px;
+  }
+
+  button{
+    background: #282828;
+    color: #f2f2f2;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+</style>
+<body>
+  
+  <form action="">
+
+    <h3>House Market Place</h3>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required>
+    </div>
+
+    <button type="submit">Login</button>
+
+  </form>
+
+</body>
+</html>

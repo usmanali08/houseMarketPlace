@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "C:\\Users\\mohamedrafi\\.virtualenvs\\django-dKliX6Q7\\scripts\\python.exe"
+  "python.pythonPath": "C:\\Users\\mohamedrafi\\.virtualenvs\\django-dKliX6Q7\\scripts\\python.exe",
+  "python.linting.enabled": false
 }
